@@ -1,7 +1,7 @@
 # Reporte Git y Github
-![escudo-actualizado-2022](https://github.com/LizBarrios/ParadigmasP/assets/141792789/0e86ebe0-ea42-4601-afeb-ae69792bb6d9)
+<img src="https://github.com/LizBarrios/ParadigmasP/assets/141792789/0e86ebe0-ea42-4601-afeb-ae69792bb6d9" alt="escudo-actualizado-2022" width="200"/>
 
-#BARRIOS RETANA LIZETH 372813
+# BARRIOS RETANA LIZETH 372813
 
 Clase: Paradigmas de Programación
 
