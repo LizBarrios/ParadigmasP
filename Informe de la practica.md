@@ -1,5 +1,7 @@
 # Reporte Git y Github
-`#0969DA`
+![escudo-actualizado-2022](https://github.com/LizBarrios/ParadigmasP/assets/141792789/0e86ebe0-ea42-4601-afeb-ae69792bb6d9)
+
+#BARRIOS RETANA LIZETH 372813
 
 Clase: Paradigmas de Programación
 
@@ -34,8 +36,8 @@ Clase: Paradigmas de Programación
 - En la terminal, en este caso bash se pueden ejecutar los siguientes comandos (ejemplo):
 
 ```bash
-$mkdir paradigmas/practica0   // Crear carpetas
-$cd paradigmas/practica0      // Cambiar directorio
+$mkdir Pparadigmas/practica0   // Crear carpetas
+$cd Pparadigmas/practica0      // Cambiar directorio
 $touch prueba.md              // Crear archivo
 $nano prueba.md               // Abrir archivo en editor de texto
 $cat prueba.md                // Leer archivo en terminal
@@ -54,7 +56,7 @@ $cd ..                           // Volver al directorio anterior (atras)
 $git init                        // Inicializar repositorio local de git
 $git status                      // Checar el estado de los archivos en el repositorio
 $git add README.md               // Añadir archivo a los archivos rastreados
-$git commit -m "primer commit"   // Crear una captura de los cambios hasta el momento
+$git commit -m " mi primer commit"   // Crear una captura de los cambios hasta el momento
 ```
 
 ### Crear llave pública / privada
@@ -65,7 +67,7 @@ $git commit -m "primer commit"   // Crear una captura de los cambios hasta el mo
 ```bash
 $ssh-keygen
 $ls ~/.ssh
-$cat ~/.ssh/id_rsa.pub
+$cat ~/.ssh/id_ed25519.pub
 ```
 
 ### Crear repositorio en Github
@@ -93,8 +95,8 @@ $cat ~/.ssh/id_rsa.pub
 ```bash
 $mkdir temp
 $cd temp
-$git clone git@github.com:Scalaptia/paradigmas-de-programacion.git
-$cd paradigmas-de-programacion
+$git clone git@github.com:LizBarrios/ParadigmasP.git
+$cd ParadigmasP
 ```
 
 ### Crear branch
@@ -111,7 +113,7 @@ $git status                    // Verificar branch
 
 ```bash
 $code .                                    // Abrir proyecto en VSCode
-$git add Practicas/Practica00/README.md    // Añadir archivo a los archivos rastreados
+$git add README.md    // Añadir archivo a los archivos rastreados
 $git commit -m "Modificar README"          // Crear captura de cambios
 ```
 
@@ -133,7 +135,7 @@ $git restore .  // Eliminar cambios
 - Si añadiste el cambio, debes ejecutar lo siguiente:
 
 ```bash
-$git restore --staged Practicas/Practica00/README.md
+$git restore --staged README.md
 ```
 
 ### Fusionar branch
