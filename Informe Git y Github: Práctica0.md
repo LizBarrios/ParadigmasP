@@ -5,7 +5,7 @@
 
 Autor: Lizeth Barrios Retana  
 
-Grupo: 931  
+Grupo: 941  
 
 Clase: Paradigmas de Programación  
 
