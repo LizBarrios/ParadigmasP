@@ -1,5 +1,6 @@
-# Reporte Git y Github: Practica0
+# Universidad Autonoma de Baja California
 
+# Facultad de Ingenieria, Arquitectura y diseño
 <img src="https://github.com/LizBarrios/ParadigmasP/assets/141792789/0e86ebe0-ea42-4601-afeb-ae69792bb6d9" alt="escudo-actualizado-2022" width="300"/>
 
 Autor: Lizeth Barrios Retana  
