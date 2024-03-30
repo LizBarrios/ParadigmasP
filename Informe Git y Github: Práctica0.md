@@ -1,6 +1,6 @@
 # Practica 0: Gestión de Repositorios con Git y GitHub.
 
-### Indice
+### Índice
 
 1. [Crear / Verificar cuenta de Github](#crear--verificar-cuenta-de-github)
 2. [Instalar / Verificar Git](#instalar--verificar-git)
@@ -83,14 +83,14 @@ $cat ~/.ssh/id_ed25519.pub
 
 ### Clonar repositorio
 
-- Ve a Github y haz clic en "Code", de ahi copia el codigo de SSH.
+- Ve a Github y haz clic en "Code", de ahí copia el código de SSH.
 - En tu terminal, navega hasta la carpeta donde deseas clonar el repositorio.
 - Ejecuta `git clone` seguido del código de SSH que copiaste.
 
 ```bash
 $mkdir temp                                                // Crear la carpeta temporal
 $cd temp                                                   // Cambiar directorio a temp
-$git clone git@github.com:LizBarrios/ParadigmasP.git       // Cloar el rpositorio en temp
+$git clone git@github.com:LizBarrios/ParadigmasP.git       // Clonar el repositorio en temp
 $cd ParadigmasP                                            // Cambiar directorio
 ```
 
