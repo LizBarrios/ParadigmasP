@@ -33,11 +33,11 @@
 ```bash
 $mkdir Pparadigmas/practica0   // Crear carpetas
 $cd Pparadigmas/practica0      // Cambiar directorio
-$touch prueba.md              // Crear archivo
-$nano prueba.md               // Abrir archivo en editor de texto
-$cat prueba.md                // Leer archivo en terminal
-$rm pureba.md                 // Eliminar archivo
-$code README.md               // Abrir archivo en VSCode
+$touch prueba.md               // Crear archivo
+$nano prueba.md                // Abrir archivo en editor de texto
+$cat prueba.md                 // Leer archivo en terminal
+$rm pureba.md                  // Eliminar archivo
+$code README.md                // Abrir archivo en VSCode
 ```
 
 ### Inicializar repositorio
@@ -47,11 +47,11 @@ $code README.md               // Abrir archivo en VSCode
 - Ejecuta `git init` para inicializar un nuevo repositorio Git en la carpeta.
 
 ```bash
-$cd ..                           // Volver al directorio anterior (atras)
-$git init                        // Inicializar repositorio local de git
-$git status                      // Checar el estado de los archivos en el repositorio
-$git add README.md               // Añadir archivo a los archivos rastreados
-$git commit -m " mi primer commit"   // Crear una captura de los cambios hasta el momento
+$cd ..                                // Volver al directorio anterior (atras)
+$git init                             // Inicializar repositorio local de git
+$git status                           // Checar el estado de los archivos en el repositorio
+$git add README.md                    // Añadir archivo a los archivos rastreados
+$git commit -m " mi primer commit"    // Crear una captura de los cambios hasta el momento
 ```
 
 ### Crear llave pública / privada
@@ -88,10 +88,10 @@ $cat ~/.ssh/id_ed25519.pub
 - Ejecuta `git clone` seguido del código de SSH que copiaste.
 
 ```bash
-$mkdir temp
-$cd temp
-$git clone git@github.com:LizBarrios/ParadigmasP.git
-$cd ParadigmasP
+$mkdir temp                                                // Crear la carpeta temporal
+$cd temp                                                   // Cambiar directorio a temp
+$git clone git@github.com:LizBarrios/ParadigmasP.git       // Cloar el rpositorio en temp
+$cd ParadigmasP                                            // Cambiar directorio
 ```
 
 ### Crear branch
@@ -108,7 +108,7 @@ $git status                    // Verificar branch
 
 ```bash
 $code .                                    // Abrir proyecto en VSCode
-$git add README.md    // Añadir archivo a los archivos rastreados
+$git add README.md                         // Añadir archivo a los archivos rastreados
 $git commit -m "Modificar README"          // Crear captura de cambios
 ```
 
